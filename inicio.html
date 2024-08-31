@@ -9,11 +9,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             background-color: #000; /* Fundo preto */
             font-family: Arial, sans-serif;
             padding: 10px;
+            overflow: hidden; /* Evita que o body crie uma barra de rolagem desnecessária */
         }
         .container {
             text-align: center;
@@ -23,15 +24,17 @@
             box-shadow: 0 0 100px rgba(255, 20, 147, 0.5); /* Sombra rosa */
             max-width: 600px;
             width: 100%;
+            max-height: 100%; /* Garante que o container não ultrapasse a altura da tela */
+            overflow: auto; /* Adiciona rolagem ao container se o conteúdo for maior que a altura da tela */
         }
         h1 {
             color: #ff69b4; /* Cor rosa para o título */
-            font-size: 2.5em;
+            font-size: 1.6em;
             margin-bottom: 10px;
         }
         h2 {
             color: #f755a1; /* Cor rosa claro para o subtítulo */
-            font-size: 1.5em;
+            font-size: 1.3em;
             margin-bottom: 20px;
         }
         button {
@@ -55,10 +58,13 @@
             Kamily, Saudades de você! Nunca terão acesso a essa aba, então, MEU DEUS, gerencia conseguiu tomar a pior decisão do setor KKKKKKKK.<br> 
             Novamente, obrigado por todos os momentos! Tenho 100% de certeza que você também vai muito longe com sua carreira, e sinceramente, fico é muitooo feliz pela sua saída.<br> 
             Até porque a Unicesumar é muito pequena pra você, assim como pra mim, a sua dedicação, companheirismo e bom humor fizeram cada dia no meu trabalho mais leve e especial.<br> 
-            Desejo a você todo o sucesso do mundo e que todos os seus sonhos se realizem. Você vai ser uma excelente vetenária! Vai ter sua clínica própria, e consquistar absolutamente tudo que deseja. Qualquer coisa pode ter certeza que estarei aqui, pode SEMPRE contar comigo!  <br> 
+            Desejo a você todo o sucesso do mundo e que todos os seus sonhos se realizem. Você vai ser uma excelente veterinária! Vai ter sua clínica própria, e consquistar absolutamente tudo que deseja, até porque você pode, você consegue, você sempre conseguiu, qualquer coisa pode ter certeza que estarei aqui, pode SEMPRE contar comigo!  <br> 
             Isso é um trabalho de design, mas fiz quando tava mal pela sua saída, então, isso é pra você:
         </h2>
-        <a href="flower.html"><button>Clique aqui</button></a>
+
+        <a href="flower.html"><button>Clique aqui</button></a><br>
+
+        <h2>_Rafa</h2>
     </div>
 </body>
 </html>
