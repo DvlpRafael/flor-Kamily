@@ -14,7 +14,7 @@
             background-color: #000; /* Fundo preto */
             font-family: Arial, sans-serif;
             padding: 10px;
-            overflow: hidden; /* Evita que o body crie uma barra de rolagem desnecessária */
+            overflow: auto; /* Permite rolagem do body caso necessário */
         }
         .container {
             text-align: center;
@@ -24,7 +24,6 @@
             box-shadow: 0 0 100px rgba(255, 20, 147, 0.5); /* Sombra rosa */
             max-width: 600px;
             width: 100%;
-            max-height: 100%; /* Garante que o container não ultrapasse a altura da tela */
             overflow: auto; /* Adiciona rolagem ao container se o conteúdo for maior que a altura da tela */
         }
         h1 {
